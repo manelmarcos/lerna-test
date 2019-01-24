@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import Button from '../components/Button'
+import {Button} from '../../packages/shared-ui/components/Button'
 
 export default ({ pathContext: { data }}) => {
   if (!data) {
